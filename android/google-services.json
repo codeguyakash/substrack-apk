@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721861602513",
+    "project_id": "substrack-b4dc0",
+    "storage_bucket": "substrack-b4dc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721861602513:android:47c5a9f35657892f73a9f0",
+        "android_client_info": {
+          "package_name": "substrack.example.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByXczHZ1HBtZyT3ISFlB47dS5r2qBPDlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

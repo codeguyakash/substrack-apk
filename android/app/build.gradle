@@ -72,6 +72,7 @@ def enableProguardInReleaseBuilds = false
  */
 def jscFlavor = 'org.webkit:android-jsc:+'
 
+
 android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
@@ -116,4 +117,15 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // Add Firebase dependencies here:
+    implementation platform('com.google.firebase:firebase-bom:33.8.0')  // Firebase Bill of Materials (BoM)
+    implementation 'com.google.firebase:firebase-analytics'  // Firebase Analytics
+    // Add other Firebase SDKs you want to use (e.g., Firestore, Auth, etc.)
+    // implementation 'com.google.firebase:firebase-auth'
+    // implementation 'com.google.firebase:firebase-firestore'
+
 }
+
+// Add the Google services plugin
+apply plugin: "com.google.gms.google-services"  // Add this line
